@@ -1,0 +1,116 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 69px;
+    display: block;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0px;
+}
+.logo{
+    float: left;
+    height: 50px;
+    padding-left: 10px;
+}
+.navigation{
+    float: right;
+    height: 100%;
+    margin: 0px auto;
+    
+}
+.navigation a{
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+}
+.navigation a li{
+    display: table-cell;
+    text-align: center;
+    height: 100%;
+    text-decoration: underline;
+    padding: 20px;
+    color: grey;
+    font-weight: 700;
+    
+}
+.container{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*by5kw0*_ga*MjA0ODk1MTA5OS4xNjY2MjE2NzAw*_ga_3LRZM6TM9L*MTY2NzU2MzUwNS40MS4xLjE2Njc1NjQ0NzYuNTUuMC4w");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    display: flex;
+    margin: 40px auto 40px auto ;
+}   
+.text{
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    color: grey;
+}
+
+.text-2{
+    color: grey;
+    font-size: 30px;
+    line-height: 10px;
+    text-align: center;
+}
+.trend-container{
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.trend img{
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+.container-1{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*by5kw0*_ga*MjA0ODk1MTA5OS4xNjY2MjE2NzAw*_ga_3LRZM6TM9L*MTY2NzU2MzUwNS40MS4xLjE2Njc1NjQ0NzYuNTUuMC4w");
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto ;
+}
+.text-top{
+    font-weight: bold;
+    font-size: 43px;
+    padding-top: 40px;
+}
+.main-container{
+    margin: 15px auto auto auto;
+    max-width: 1050px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    height: 300px;
+    padding: 20px;
+    flex-basis: 30%;
+    background-color: black;
+    box-sizing: border-box;
+    
+}
+.footer{
+    color: grey;
+}
+.end{
+    color: grey;
+    float: left;
+}
